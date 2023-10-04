@@ -1,0 +1,48 @@
+.body{
+    margin:0px;
+    padding:0px;
+}
+.header{
+    margin-top: 67px;
+    margin-left: 130px;
+    width: 40px;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo {
+    width: 109.412px;
+    height: 36.364px;    
+}
+
+.main__centr{
+    position: absolute;
+    left: 386px;
+}
+.main__title{
+    color: #415167;
+    font-family: Montserrat;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px;
+
+}
+.header__cart{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-left: 0px;
+}
+.menu__list-item{
+    
+    color:#EDF0F5;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+.main__background{
+
+}
