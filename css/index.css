@@ -1,4 +1,11 @@
 
+
+@font-face {
+    font-family: "Poppins";
+    font-style: bold;
+    font-weight: 400;
+    src: url("../fonts/Poppins-Bold.ttf");  
+  }
 body{
     margin: 0px;
 }
@@ -28,7 +35,11 @@ li {
     flex-shrink: 0;    
 }
 .header__menu{
-    margin-left: 814px;
+    
+}
+.menu_button{
+    border-radius: 5px;
+    margin-left: 600px;
 }
 .header__text{
     position: relative;
@@ -49,7 +60,7 @@ li {
 #text1{
     font-size: 14px;
     font-weight: 100;
-    line-height: normal;
+    line-height: light;
 }
 #text2{
     font-size: 60px;
@@ -60,6 +71,7 @@ li {
 #text3{
     font-size: 16px;
     font-weight: 100;
+    font-size: light;
     line-height: 26px; /* 162.5% */
 }
 .preview__text a{
@@ -180,4 +192,17 @@ margin-top: 70px;
 footer{
     display: flex;
     height: 40px;
+}
+.menu{
+    position: absolute;
+    border-radius: 1%;
+    margin-left: 580px;
+    height: 0px;
+    width: 340px;
+    background-color: #FAFAFA;
+    transition: height 0.5s;
+}
+.menu_open{
+    height: 400px;
+    transition: height 0.5s;
 }

@@ -4,13 +4,26 @@
         <title>Лабораторная работа 1</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/index.css">
+        
+
     </head>
     <body>
+        <!-- Заголовоок с лого-->
         <header class="header" id="header">
             <img class="header__logo" id="header-tag"src="images/Group 3.png" alt="logo">
             <img class="header__text" id="header-tag"src="images/webovio..png" alt="text">
-            <a href="#"><img class="header__menu" id="header-tag"src="images/Group 15.png" alt="menu"></a>
+
+            <!--<button class="menu_button" id="menu_button" href="#"><img class="header__menu" id="header-tag"src="images/Group 15.png" alt="menu"></button>
+            -->
+            <input type="button" id="menu_button" class="menu_button">
+            <div id="menu" class="menu">
+                <form action="#">
+                    <p>Введите ваши данные:</p>
+                </form>
+            </div>
         </header>
+
+        <!--Обложка, закглавная картинка-->
         <section class="preview">
             <img src="images/Bitmap.png" alt="background">
             <div class="preview__text">
@@ -20,6 +33,8 @@
                 <a href="#">▶ Get in touch</a>
             </div>
         </section>
+
+        <!--Место-->
         <section class="mid">
             <h1>Deation & Evaluation - Best Way to Kick off Your Product Idea</h1>
             <div class="mid__text">
@@ -45,12 +60,16 @@
                 </div>
             </div>
         </section>
+
+        <!--Плашка поверх нижней картинки-->
         <section class="mask">
             <div class="mask__iner">
                 <h1 id="mask__text">Let’s make something amazing together.</h1>
                 <a href="#">▶ LETS'S GET STARTED</a>
             </div>
         </section>
+
+        <!--Самый низ, с картинкой-->
         <section class="bottom">
             <div class="bottom__back">
                 <div class="box"></div>
@@ -111,6 +130,7 @@
                     <p id="footer__text">© 2020@webovio. All Rights Reserved.</p>
                 </footer>
             </div>
-        </footer>
+        </section>
+<script src="scripts/menu.js"></script>
     </body>
 </html>
