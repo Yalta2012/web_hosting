@@ -21,10 +21,10 @@ html{
 }
 li {
     margin-bottom:20px;
-    list-style-type: none; /* Убираем маркеры */
+    list-style-type: none; /* РЈР±РёСЂР°РµРј РјР°СЂРєРµСЂС‹ */
    }
  ul {
-    padding-left: 0; /* Сдвигаем список влево */
+    padding-left: 0; /* РЎРґРІРёРіР°РµРј СЃРїРёСЃРѕРє РІР»РµРІРѕ */
    }
 .header{
     position: absolute;
@@ -40,6 +40,11 @@ li {
 .menu_button{
     border-radius: 5px;
     margin-left: 600px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: rgba(1,1,1,0);
+    cursor: pointer;
 }
 .header__text{
     position: relative;
@@ -197,12 +202,29 @@ footer{
     position: absolute;
     border-radius: 1%;
     margin-left: 580px;
-    height: 0px;
+    height: 280px;
     width: 340px;
+    transform: scale(0);
     background-color: #FAFAFA;
-    transition: height 0.5s;
+    transition: transform 0.5s;
 }
 .menu_open{
-    height: 400px;
-    transition: height 0.5s;
+    transform: scale(1);
+    height: 280px;
+    transition: transform 0.5s;
+    border-radius: 1%;
+    
+}
+.regform{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.regform div{
+    padding: 0px;
+    display: flex;
+}
+.regform h3{
+    margin: 5px;
+    font-size: small;
 }
