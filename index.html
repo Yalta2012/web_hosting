@@ -13,13 +13,28 @@
             <img class="header__logo" id="header-tag"src="images/Group 3.png" alt="logo">
             <img class="header__text" id="header-tag"src="images/webovio..png" alt="text">
 
-            <!--<button class="menu_button" id="menu_button" href="#"><img class="header__menu" id="header-tag"src="images/Group 15.png" alt="menu"></button>
-            -->
-            <input type="button" id="menu_button" class="menu_button">
+
+            <button id="menu_button" class="menu_button" >
+                <img src="images\Group 15.png" alt="">
+            </button>
             <div id="menu" class="menu">
-                <form action="#">
-                    <p>Введите ваши данные:</p>
-                </form>
+                <div class="regform" id="regform">
+                    <form action="#">
+                        <p>Registration</p>
+                        <input type="email" placeholder="Email"required>
+                        <input type="tel" placeholder="Phone number" pattern="[0-9]{11}"required>
+                        <input type="password" placeholder="Password"required>
+                        <input type="password" placeholder="Password one more time"required>
+                        <div>
+                            <h3>Your favorite color: </h3>
+                            <input type="color">
+                        </div>
+                        
+                        <input type="submit">
+                    </form>
+                    
+                </div>
+
             </div>
         </header>
 
