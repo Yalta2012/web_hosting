@@ -6,6 +6,9 @@
     font-weight: 400;
     src: url("../fonts/Poppins-Bold.ttf");  
   }
+html{
+    font-family: Poppins;
+}
 body{
     margin: 0px;
 }
@@ -16,15 +19,13 @@ a{
 a:hover{
     color: #FFD723;
 }
-html{
-    font-family: Poppins;
-}
+
 li {
     margin-bottom:20px;
-    list-style-type: none; /* РЈР±РёСЂР°РµРј РјР°СЂРєРµСЂС‹ */
+    list-style-type: none; /* Р Р€Р В±Р С‘РЎР‚Р В°Р ВµР С� Р С�Р В°РЎР‚Р С”Р ВµРЎР‚РЎвЂ№ */
    }
  ul {
-    padding-left: 0; /* РЎРґРІРёРіР°РµРј СЃРїРёСЃРѕРє РІР»РµРІРѕ */
+    padding-left: 0; /* Р РЋР Т‘Р Р†Р С‘Р С–Р В°Р ВµР С� РЎРѓР С—Р С‘РЎРѓР С•Р С” Р Р†Р В»Р ВµР Р†Р С• */
    }
 .header{
     position: absolute;
@@ -105,7 +106,7 @@ li {
     font-weight: 900;
     font-size: 35px;
 }
-.mid p{
+.mid_p{
     color:rgba(33, 56, 66, 0.60);
     height: 150px;
 }
@@ -124,9 +125,9 @@ li {
 }
 .box__img{
     position: absolute;
-    margin-top: -800px;
+    margin-top: -920px;
     opacity: 0.15;
-    height: 774px;
+    height: 920px;
     width: 1440px;
 }
 
@@ -182,15 +183,15 @@ margin-top: 70px;
 .bottom__section{
     margin-right: 130px;
 }
-#bottom__text__bold{
+.bottom__text__bold{
     color: #FFF;
     font-weight: bold;
 
 }
-#bottom__text__thin{
+.bottom__text__thin{
     color: #B6C197;
 }
-#footer__text{
+.footer__text{
     margin-left: 550px;
     color: #B6C197;
 }
@@ -202,15 +203,16 @@ footer{
     position: absolute;
     border-radius: 1%;
     margin-left: 580px;
-    height: 280px;
+    height: 300px;
     width: 340px;
     transform: scale(0);
     background-color: #FAFAFA;
     transition: transform 0.5s;
+    z-index: 10;
 }
 .menu_open{
     transform: scale(1);
-    height: 280px;
+    height: 300px;
     transition: transform 0.5s;
     border-radius: 1%;
     
@@ -227,4 +229,27 @@ footer{
 .regform h3{
     margin: 5px;
     font-size: small;
+}
+
+
+.darktheme_text{
+    color: #D4D6D4;
+}
+.darktheme_mask{
+    background-color: #191818;
+    color: #D4D6D4;
+}
+.darktheme{
+    background-color:  #201f1f;
+}
+.darktheme_box{
+    background-color: #2f3225;
+}
+
+.light{
+    position: absolute;
+    height:2850px;
+    width: 100%;
+    z-index: 100;
+    pointer-events: none;
 }
