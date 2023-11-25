@@ -1,0 +1,255 @@
+
+
+@font-face {
+    font-family: "Poppins";
+    font-style: bold;
+    font-weight: 400;
+    src: url("../fonts/Poppins-Bold.ttf");  
+  }
+html{
+    font-family: Poppins;
+}
+body{
+    margin: 0px;
+}
+a{
+    color:#D4D6D4;;
+    font-weight: bold;
+}
+a:hover{
+    color: #FFD723;
+}
+
+li {
+    margin-bottom:20px;
+    list-style-type: none; /* Р Р€Р В±Р С‘РЎР‚Р В°Р ВµР С� Р С�Р В°РЎР‚Р С”Р ВµРЎР‚РЎвЂ№ */
+   }
+ ul {
+    padding-left: 0; /* Р РЋР Т‘Р Р†Р С‘Р С–Р В°Р ВµР С� РЎРѓР С—Р С‘РЎРѓР С•Р С” Р Р†Р В»Р ВµР Р†Р С• */
+   }
+.header{
+    position: absolute;
+    margin-top: 27.27px;
+    margin-left: 176.78px;
+    width: 1111px;
+    height: 40px;
+    flex-shrink: 0;    
+}
+.header__menu{
+    
+}
+.menu_button{
+    border-radius: 5px;
+    margin-left: 600px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: rgba(1,1,1,0);
+    cursor: pointer;
+}
+.header__text{
+    position: relative;
+    margin-bottom: 5px;
+}
+.preview__text{
+    font-family: Poppins;
+    margin-left: 176.78px;
+    position: absolute;
+    width: 616px;
+    height: 412px;
+    flex-shrink: 0;
+    top: 190px;
+    color: #FFF;
+    font-family: Poppins;
+    font-style: normal;
+}
+#text1{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: light;
+}
+#text2{
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 74px; /* 123.333% */
+
+}
+#text3{
+    font-size: 16px;
+    font-weight: 100;
+    font-size: light;
+    line-height: 26px; /* 162.5% */
+}
+.preview__text a{
+    color: #FFD723;
+}
+.mid div{
+    width: 180px;
+    height: 309px;
+    flex-shrink: 0;
+    margin-right: 60px;
+}
+.mid__text{
+    display: flex;
+}
+.mid__str{
+    width: 255px;
+    height: 309px;
+    flex-shrink: 0;
+}
+.mid{
+    margin-left: 165px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+.mid h1{
+    font-weight: 900;
+    font-size: 35px;
+}
+.mid_p{
+    color:rgba(33, 56, 66, 0.60);
+    height: 150px;
+}
+.mid h2{
+    height: 75px;
+}
+.bottom__back{
+    position:  absolute;
+    z-index: -1;
+    margin-top: -190px;
+}
+.box{
+    width: 1440px;
+    height: 920px;
+    background: #4F553D;
+}
+.box__img{
+    position: absolute;
+    margin-top: -920px;
+    opacity: 0.15;
+    height: 920px;
+    width: 1440px;
+}
+
+.mask{
+    position: absolute;
+    width: 1275px;
+    height: 362px;
+    background-color: #FAFAFA;
+    margin-top: -170px;
+    
+}
+.mask__iner{
+    display: flex;
+    width: 822px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 164px;
+
+}
+#mask__text{
+font-size: 55px;
+width: 822px;
+margin: 0px;
+margin-top: 70px;
+}
+.line{
+    background-color: #5D6544;
+    width: 1110px;
+    height: 1px;
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+.line2{
+    width: 1px;
+    height: 210px;
+    background-color: #5D6544;
+    margin-right: 130px;
+}
+.bottom{
+    margin-top: 600px;
+}
+.bottom__text{
+    margin-left: 165px;
+}
+.bottom__1{
+    display: flex;
+}
+.bottom__2{
+    display: flex;
+}
+
+.bottom__section{
+    margin-right: 130px;
+}
+.bottom__text__bold{
+    color: #FFF;
+    font-weight: bold;
+
+}
+.bottom__text__thin{
+    color: #B6C197;
+}
+.footer__text{
+    margin-left: 550px;
+    color: #B6C197;
+}
+footer{
+    display: flex;
+    height: 40px;
+}
+.menu{
+    position: absolute;
+    border-radius: 1%;
+    margin-left: 580px;
+    height: 300px;
+    width: 340px;
+    transform: scale(0);
+    background-color: #FAFAFA;
+    transition: transform 0.5s;
+    z-index: 10;
+}
+.menu_open{
+    transform: scale(1);
+    height: 300px;
+    transition: transform 0.5s;
+    border-radius: 1%;
+    
+}
+.regform{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.regform div{
+    padding: 0px;
+    display: flex;
+}
+.regform h3{
+    margin: 5px;
+    font-size: small;
+}
+
+
+.darktheme_text{
+    color: #D4D6D4;
+}
+.darktheme_mask{
+    background-color: #191818;
+    color: #D4D6D4;
+}
+.darktheme{
+    background-color:  #201f1f;
+}
+.darktheme_box{
+    background-color: #2f3225;
+}
+
+.light{
+    position: absolute;
+    height:2850px;
+    width: 100%;
+    z-index: 100;
+    pointer-events: none;
+}
